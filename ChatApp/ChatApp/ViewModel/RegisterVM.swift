@@ -7,16 +7,13 @@
 
 import Foundation
 
-
-struct RegisterVM {
-    
+struct RegisterViewModel {
     var email: String?
     var name: String?
-    var usernama: String?
+    var userName: String?
     var password: String?
     
     var status: Bool{
-        
-        return email?.isEmpty == false && password?.isEmpty == false && name?.isEmpty == false && usernama?.isEmpty == false
+        return email?.isEmpty == false && password?.isEmpty == false && userName?.isEmpty == false && name?.isEmpty == false
     }
 }

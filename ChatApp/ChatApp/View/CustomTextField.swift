@@ -7,19 +7,15 @@
 
 import UIKit
 
-
-class CustomTextField: UITextField {
-    
-    init(plecholder: String) {
+class CustomTextField: UITextField, UITextFieldDelegate {
+    init(placeholder: String) {
         super.init(frame: .zero)
-        
-        attributedPlaceholder = NSMutableAttributedString(string: plecholder, attributes: [.foregroundColor: UIColor.white])
+       attributedPlaceholder = NSMutableAttributedString(string: placeholder, attributes: [.foregroundColor: UIColor.white])
         borderStyle = .none
-        textColor = .black
+        textColor = .white
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

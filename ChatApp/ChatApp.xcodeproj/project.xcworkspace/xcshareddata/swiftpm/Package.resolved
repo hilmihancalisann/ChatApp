@@ -73,6 +73,15 @@
       }
     },
     {
+      "identity" : "jgprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JonasGessner/JGProgressHUD.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "103d67f308b8c0c18926061025549af98cdfd6fc"
+      }
+    },
+    {
       "identity" : "leveldb",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/leveldb.git",
@@ -97,6 +106,15 @@
       "state" : {
         "revision" : "3e4e743631e86c8c70dbc6efdc7beaa6e90fd3bb",
         "version" : "2.1.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f25cc6bb1c595ef0165039360534d587e451ff8a"
       }
     },
     {
